@@ -13,5 +13,12 @@ pipeline{
                 
             }
         }
+        stage('Sonarqube'){
+            steps{
+                echo 'Sonar Codequality'
+                sh '''        '''
+            }
+        }
+
     }
 }
